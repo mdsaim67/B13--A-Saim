@@ -56,7 +56,10 @@ nav {
 nav ul {
     display: flex;
     list-style: none;
-    gap: 32px;
+    gap: 32px; 
+    justify-content: center;
+    align-items: center; 
+   
 }
 
 nav ul li a {
