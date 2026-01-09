@@ -9,7 +9,6 @@
 .content {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     margin: 0 auto;
     width: 85%;
     max-width: 1360px;
@@ -230,8 +229,7 @@ main .content p {
 }
 
 .grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    display:flex;
     gap: 60px;
     margin-top: 60px;
 }
@@ -295,7 +293,7 @@ main .content p {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
+    margin: 110px auto;
     width: 85%;
     max-width: 1360px;
     padding: 80px 40px 80px 40px;
@@ -313,9 +311,6 @@ main .content p {
     flex-direction: column;
     gap: 24px;
     text-align: center; 
-    margin: 80px 40px;
-
- 
 }
 footer {
   background: #071a2f;
