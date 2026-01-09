@@ -314,6 +314,7 @@ main .content p {
     gap: 24px;
     text-align: center; 
     margin: 80px 40px;
+
  
 }
 footer {
@@ -330,18 +331,20 @@ footer {
   align-items: center;
 }
 .social{
-    text-align: center;
+font-weight:light;
+font-size: 20px;
 text-decoration: none; 
-color: #f7f3f3;
-justify-content: center;
-align-items: center;
-gap: px;
+color: rgba(255, 255, 255, 1);
+}
+.social-img{
+    margin-top: 10px;
 }
 .social a {
   margin-left: 12px;
   text-decoration: none;
   color: #cbd5e1;
 }
+
 .copy {
   text-align: center;
   margin-top: 20px;
